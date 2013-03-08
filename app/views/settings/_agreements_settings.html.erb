@@ -1,0 +1,10 @@
+<div class="tabular settings">
+  <p>
+    <label>URL de la página de condiciones</label>
+    <%= text_field_tag("settings[agreements_page]", @settings['agreements_page'], :size => 60) %>
+  </p>
+  <p>
+    <label>URL de rechazo de las condiciones</label>
+    <%= text_field_tag("settings[agreements_reject_page]", @settings['agreements_reject_page'], :size => 60) %>
+  </p>
+</div>
