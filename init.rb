@@ -6,7 +6,7 @@ Redmine::Plugin.register :redmine_spd_agreement do
   author 'Maximiliano Dello Russo'
   description 'Muestra los terminos y condiciones de uso de la plataforma SPD'
   version '0.0.1'
-  url 'http://example.com/path/to/plugin'
+  url 'https://github.com/maxidr/redmine_spd_agreement'
   author_url 'https://coderwall.com/maxidr'
 
 
